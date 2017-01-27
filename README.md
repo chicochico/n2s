@@ -12,7 +12,7 @@ Example usage in tmux status bar window index, add this line to your tmux theme 
 
 `setw -g window-status-format "#[bold]#(path-to/num2sup.py #I)#[nobold]#W "`
 
-You may have to add the python3 command, make shure python3 is in your path:
+You may have to add the python3 command, make sure python3 is in your path:
 
 `setw -g window-status-format "#[bold]#(python3 path-to/num2sup.py #I)#[nobold]#W "`
 
